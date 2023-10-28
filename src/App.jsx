@@ -11,9 +11,9 @@ function App() {
   return(
     <>
       <Header/>
-      <Card name="Fauste1" description="I write code." image={profilePic}/>
-      <Card name="Hexsus" description="I play videogames." image={orcProfilePic}/>
-      <Card name="Steve" description="I do stuff." image={steveProfilePic}/>
+      <Card name="Fauste1" description="I write code." image={profilePic} isOnline={true}/>
+      <Card name="Hexsus" description="I play videogames." image={orcProfilePic} isOnline={true}/>
+      <Card name="Steve" description="I do stuff." image={steveProfilePic} isOnline={false}/>
       <Card />
       <Footer/>
     </>

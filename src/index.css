@@ -8,7 +8,14 @@
   text-align: center;
   max-width: 250px;
   display: inline-block;
+}
+
+.user-online {
   background-color: hsla(216, 100%, 58%, 0.149);
+}
+
+.user-offline {
+  background-color: hsla(0, 100%, 58%, 0.149);
 }
 
 .card img {
